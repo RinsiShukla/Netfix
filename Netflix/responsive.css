@@ -1,0 +1,122 @@
+@media (max-width: 1364px){
+    .front-content .nav .logo{
+        margin: 8px;
+    }
+
+    .front-content .nav .sign-in{
+        margin-left: 740px;
+    }
+}
+
+@media (max-width: 1173px){
+    .front-content .nav .sign-in{
+        margin-left: 580px;
+    }
+    .front-content .main-content h1{
+        font-size: 40px;
+    }
+    .front-content .main-content h4{
+        font-size: 18px;
+    }
+    .front-content .main-content p{
+        font-size: 17px;
+    }
+    .email input{
+        width: 300px;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .email button{
+        width: 200px;
+        font-size: 21px;
+        padding: 7px;
+    }
+
+    .email button i{
+        font-size: 20px;
+    }
+    .container .img-content img{
+        max-width: 500px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1005px){
+    .front-content .nav .sign-in{
+        margin-left: 440px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        margin: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 870px){
+    .front-content .nav .sign-in{
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 970px){
+    .footer-content .links .links-row{
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 740px){
+    .footer-content .links .links-row{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 667px){
+    .front-content .nav .sign-in{
+        margin-left: 120px;
+    }
+    .front-content .main-content h1{
+        font-size: 36px;
+    }
+    .front-content .main-content h4{
+        font-size: 16px;
+    }
+    .front-content .main-content p{
+        font-size: 15px;
+    }
+    .footer-content .links .links-row{
+        padding-right: 8px;
+    }
+    .footer-content .links{
+        display: block;
+    }
+    .accordion{
+        margin: 50px auto;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 560px){
+    .front-content .nav .sign-in{
+        margin-left: 60px;
+    }
+    .container .img-content img{
+        max-width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 493px){
+    .front-content .nav .sign-in{
+        margin-left: 20px;
+    }
+    .email input{
+        min-width: 250px;
+    }
+    .front-content .nav .sign-in input{
+        padding: 2px 8px;
+        margin: 0px 18px;
+    }
+} 
